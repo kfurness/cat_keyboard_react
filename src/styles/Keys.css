@@ -1,5 +1,23 @@
-.key {
-  /*display: flex;*/
-  min-width: 20vw;
+.keys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.keyDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.keyImg {
+  width: 18vw;
   padding: 5px;
+}
+
+.keyLetter {
+  /*display: inline;*/
 }
